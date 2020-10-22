@@ -1,0 +1,22 @@
+#showcase {
+    height: 300px;
+}
+
+#showcase h1 {
+    font-size: 3.5rem;
+    line-height: 1.3;
+    position: relative;
+    animation-name: topIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes topIn {
+    0% {
+        top: -100px;
+    }
+
+    100% {
+        top: 200px;
+    }
+}
